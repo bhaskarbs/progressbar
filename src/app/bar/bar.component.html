@@ -1,0 +1,11 @@
+<div class="bars form-group">
+  <ngb-progressbar type="{{bar.type}}" value="{{bar.value}}" max="{{limit}}" *ngFor="let bar of barsarray; let i = index" >{{bar.value}}%</ngb-progressbar>
+
+  <br>
+  <select class="form-control" [(ngModel)]="option">
+    <option *ngFor="let bar of bars; let i = index" value="{{i}}">Progress {{i+1}}</option>
+  </select>
+  <br>
+
+  <button (click)="act(button)" class="btn btn-default" *ngFor="let button of buttons">{{button}}</button>
+</div>

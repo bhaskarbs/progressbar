@@ -1,0 +1,13 @@
+ngb-progressbar {
+  margin-top: 1rem;
+  display: block;
+}
+.bars {
+  margin:20px;
+  width:25%;
+  border: 1px solid #ccc;
+  padding:20px;
+}
+.btn  {
+  margin: 10px;
+}
